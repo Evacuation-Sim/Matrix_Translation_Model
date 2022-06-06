@@ -1,2 +1,6 @@
 # Project exclude paths
 /venv/
+/.idea/
+/MD files/
+/Results/
+/list.txt
