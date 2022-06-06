@@ -1,6 +1,8 @@
+
 #Introduction
 Open source framework for simulating and optimizing pedestrian evacuation by using Matrix Translation Model, 
 released under the GNU license and is written in Python. 
+
 # Directory Structure
 ```commandline
 │  DataStructure.py // Data structure used in 
@@ -45,9 +47,9 @@ Run "Window.py" to start the user interface. Then build a network, save a networ
 run the optimizing according the tutorials. 
 ## Build the network and run the model
 1. Create a new floor: Click "New floor" to open the dialog, and enter the name and the number of the new floor.
-![New Floor](./MD/Step1.PNG)
-2. Select the floor: Select the created floor from the combobox to focus on the selected floor. 
-![Select Floor](./MD/Step2.PNG)
+   <img alt="New Floor" src="./MD/Step1.PNG"/>
+2. Select the floor: Select the created floor from the combobox to focus on the selected floor.
+   <img alt="Select Floor" src="./MD/Step2.PNG"/>
 3. Create nodes: Click the "Souc Node", "Inter Node", and "Sink Node" to add a source node, an intermediate node, 
 and a sink node, respectively. 
 ![Create Nodes](./MD/Step3.PNG)
