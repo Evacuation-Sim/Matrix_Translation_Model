@@ -47,42 +47,42 @@ Run "Window.py" to start the user interface. Then build a network, save a networ
 run the optimizing according the tutorials. 
 ## Build the network and run the model
 1. Create a new floor: Click "New floor" to open the dialog, and enter the name and the number of the new floor.
-   <img alt="New Floor" src="./MD/Step1.PNG"/>
+   ![New Floor](./MD/Step1.PNG)
 2. Select the floor: Select the created floor from the combobox to focus on the selected floor.
-   <img alt="Select Floor" src="./MD/Step2.PNG"/>
+   ![Select Floor](./MD/Step2.PNG)
 3. Create nodes: Click the "Souc Node", "Inter Node", and "Sink Node" to add a source node, an intermediate node, 
-and a sink node, respectively. 
-![Create Nodes](./MD/Step3.PNG)
+and a sink node, respectively.
+   ![Create Nodes](./MD/Step3.PNG)
 4. Create edges: Click "Edge" to add the edge between two nodes. Press and hold the left mouse button to go through 
 the two nodes in turn, and an edge will be created between the two selected nodes. Five properties need to be specified
 by using a dialog before creating the edge.
-![Create edges](./MD/Step4.PNG)
+   ![Create edges](./MD/Step4.PNG)
 5. Create another floor: Click "New floor" to open the dialog, and enter the name and the number of the new floor. 
 Both "Floor name" (string format) and "Floor number" (int format) should be unique. Selected the new added floor to 
 focus on it. A virtual node should be added on the new built floor, and a dialog will be created to inquire what is 
-the actual node of the virtual node. That means the virtual node is actually a node of the adjacent floor. 
-![Create Another Floor](./MD/Step6.PNG)
-![Create Virtual Node](./MD/Step7.PNG)
+the actual node of the virtual node. That means the virtual node is actually a node of the adjacent floor.
+   ![Create Another Floor](./MD/Step6.PNG)
+   ![Create Virtual Node](./MD/Step7.PNG)
 6. Run with real time display: Select the floor to be displayed at first, click "Inti Ntk" to initialize 
 the evacuation path secondly, then enable the checkbox of real-time display, at last click "Run MTM" to run the 
 model. The display results will be demonstrated by a pop-up window. When the run ends, the results will be shown 
-by a pedestrian number-evacuation time curve. No real-time display will be provided if "Display" is not checked. 
-![Run with Display](./MD/Step8.PNG)
-![Show Result](./MD/Step9.PNG)
+by a pedestrian number-evacuation time curve. No real-time display will be provided if "Display" is not checked.
+   ![Run with Display](./MD/Step8.PNG)
+   ![Show Result](./MD/Step9.PNG)
 7. Save the network: Click "save" button in the navigation bar to save the network.
-![Save Network](./MD/Step10.PNG)
+   ![Save Network](./MD/Step10.PNG)
 ## Load the network and run the model
 1. Load the network: Click "load" button in the navigation bar to load the network.
-![Save Network](./MD/Step11.PNG)
+   ![Save Network](./MD/Step11.PNG)
 2. Run with real-time display: Click "Inti Ntk", check "Display", and click "Run MTM" in sequence to run the model 
 with real-time display.
-![Save Network](./MD/Step12.PNG)
-![Save Network](./MD/Step13.PNG)
+   ![Save Network](./MD/Step12.PNG)
+   ![Save Network](./MD/Step13.PNG)
 ## Run optimization
 Build or load a network first, then click "Inti Ntk" and "Optimize" in sequence to run the optimizing of the evacuation 
 path. When the optimizing is finished, the results will be summarized by using two figures: the first one is the 
 evacuation processes in different iterations, amd the second one is the clear time of different exits during the 
-optimizing. 
+optimizing.
 ![Save Network](./MD/Step14.PNG)
 # Support
 Contact us for any support issues by [e-mail](huangzy@usst.edu.cn).
